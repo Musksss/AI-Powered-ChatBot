@@ -1,0 +1,181 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Can you tell me a joke?",
+        "Make me laugh!",
+        "Do you know any jokes?"
+      ],
+      "responses": [
+        "Why did the coffee file a police report? It got mugged!",
+        "How does a penguin build its house? Igloos it together!",
+        "I'm reading a book on anti-gravity. It's impossible to put down!"
+      ]
+    },
+    {
+      "tag": "coffee_shop_menu",
+      "patterns": [
+        "What drinks do you have?",
+        "What's on your coffee menu?",
+        "Tell me the coffee shop menu",
+        "What do you have at the coffee shop?"
+      ],
+      "responses": [
+        "Our menu includes espresso, cappuccino, latte, mocha, and iced coffee.",
+        "We serve a range of drinks: espresso, americano, latte, cappuccino, macchiato, and more!",
+        "On the menu: brewed coffee, espresso, cold brew, frappes, and more!"
+      ]
+    },
+    {
+      "tag": "vegan_options",
+      "patterns": [
+        "Do you have vegan options?",
+        "What vegan items do you offer?",
+        "Do you have dairy-free or vegan drinks?",
+        "Is there anything vegan on your menu?"
+      ],
+      "responses": [
+        "Yes! We have almond, soy, and oat milk for our coffee, and some vegan snacks like avocado toast and hummus wraps.",
+        "We offer dairy-free milk options and vegan snacks. Just ask our staff for details!",
+        "We have vegan-friendly options like almond and oat milk for coffee and some plant-based snacks."
+      ]
+    },
+    {
+      "tag": "diabetes_friendly_menu",
+      "patterns": [
+        "Do you have diabetes-friendly items?",
+        "What can you recommend for diabetics?",
+        "Are there sugar-free options on the menu?",
+        "Can I find diabetes-friendly items here?"
+      ],
+      "responses": [
+        "We offer sugar-free syrups for our coffee, and have a selection of snacks suitable for diabetics.",
+        "We can make most drinks with sugar-free syrups, and our low-carb snacks are great for diabetics.",
+        "Yes, we have sugar-free options and some low-carb snacks for you!"
+      ]
+    },
+    {
+      "tag": "reservation",
+      "patterns": [
+        "Can I make a reservation?",
+        "How do I book a table?",
+        "Is it possible to reserve a table?",
+        "Can you help me with a reservation?"
+      ],
+      "responses": [
+        "You can make a reservation by calling us or booking online through our website.",
+        "To reserve a table, please give us a call or use our online booking system.",
+        "Yes, we take reservations! Call us or book a table through our website."
+      ]
+    },
+    {
+      "tag": "wifi",
+      "patterns": [
+        "Do you have WiFi?",
+        "Is WiFi available here?",
+        "Can I connect to WiFi?",
+        "Is there internet access at the coffee shop?"
+      ],
+      "responses": [
+        "Yes, we offer free WiFi for all customers!",
+        "We have free WiFi – just ask our staff for the password.",
+        "Absolutely, you can connect to our free WiFi. Ask for the password at the counter!"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your opening hours?",
+        "When do you open?",
+        "What time do you close?",
+        "What are your hours of operation?"
+      ],
+      "responses": [
+        "We're open from 7 AM to 9 PM, Monday through Sunday.",
+        "Our hours are 7 AM - 9 PM every day.",
+        "We open at 7 AM and close at 9 PM daily!"
+      ]
+    }
+  ]
+}
